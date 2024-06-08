@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.heading {
+  display: inline-block;
+}
+
+.header {
+  text-align: center;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  padding-top: 5px;
+  margin-top: 10px;
+}
+
+.btn {
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.881);
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 10px auto;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  width: 50%;
+}
+
+.btn:hover {
+  background-color: #7c787f;
+}
+
+.btn2 i {
+  margin-right: 5px;
+  color: rgb(132, 0, 255);
+}
+
+.social {
+  text-align: center;
+  font-weight: 800;
+  font-family: cursive;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.linkprak {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  transition: all 200ms;
+  line-height: 1.25;
+  width: auto;
+  color: black;
+}
+
+.list-container {
+  text-align: center;
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+.list {
+  display: inline-block;
+  text-align: left;
+  padding-left: 0;
+}
+
+.img {
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  filter: grayscale(30%);
+  margin-bottom: 20px;
+}
+
+.img-text {
+  color: #fff;
+}
+
+.link-buy {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  transition: all 200ms;
+  line-height: 1.25;
+  width: auto;
+  color: #fff;
+  font-size: 15px;
+}
+
+.social-media {
+  font-size: 23px;
+  margin: 5px;
+  transition: transform 0.3s ease;
+  margin-top: 15px;
+}
+
+.ig-link {
+  color: #fff;
+}
+
+.linkprak:hover {
+  color: rgb(132, 0, 255);
+  transition: 0.3s ease;
+  font-weight: 800;
+}
+
+.link-buy:hover {
+  color: orangered;
+  transition: 0.3s ease;
+}
+
+.social-media:hover {
+  color: rgb(132, 0, 255);
+  transition: 0.3s ease;
+}
+
+.ig-link:hover {
+  color: rgb(132, 0, 255);
+  transition: 0.3s ease;
+}
+
+/* Media Query (tablet) */
+@media screen and (max-width: 768px) {
+  .btn {
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+/* Media Query (perangkat mobile) */
+@media screen and (max-width: 600px) {
+  .btn {
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+  }
+}
